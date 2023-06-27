@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/view/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="/view/js/main.js" async></script>
-    <script src="/view/js/academic.js" defer></script>
-    <title>Academic Area</title>
+    <script src="/view/js/emergency.js" defer></script>
+    <title>AdminSite</title>
 </head>
 
 <body>
@@ -19,21 +20,20 @@
         <ul class="side-menu">
             <li><a href="#" class="active"><i class='bx bxs-dashboard icon'></i> Dashboard</a></li>
             <li class="divider" data-text="main">Information</li>
-            <li>    
-                <a href="#"><i class='bx bxs-inbox icon'></i> Options <i
-                        class='bx bx-chevron-right icon-right'></i></a>
+            <li>
+                <a href="#"><i class='bx bxs-inbox icon'></i> Options <i class='bx bx-chevron-right icon-right'></i></a>
                 <ul class="side-dropdown">
-                    <li><a href="../view/pages/adminArea.html">Admin Area</a></li>
-                    <li><a href="../view/pages/areas.html">Areas</a></li>
-                    <li><a href="../view/pages/campers.html">Campers</a></li>
-                    <li><a href="../view/pages/chapters.html">Chapters</a></li>
-                    <li><a href="../view/pages/cities.html">Cities</a></li>
-                    <li><a href="../view/pages/contactInfo.html">Contact Info</a></li>
-                    <li><a href="../view/pages/countries.html">Countries</a></li>
-                    <li><a href="../view/pages/designArea.html">Design Area</a></li>
-                    <li><a href="../view/pages/emergencyContact.html">Emergency Contact</a></li>
+                    <li><a href="adminArea.html">Admin Area</a></li>
+                    <li><a href="areas.html">Areas</a></li>
+                    <li><a href="campers.html">Campers</a></li>
+                    <li><a href="chapters.html">Chapters</a></li>
+                    <li><a href="cities.html">Cities</a></li>
+                    <li><a href="contactInfo.html">Contact Info</a></li>
+                    <li><a href="countries.html">Countries</a></li>
+                    <li><a href="designArea.html">Design Area</a></li>
+                    <li><a href="emergencyContact.html">Emergency Contact</a></li>
                 </ul>
-            </li>  
+            </li>
         </ul>
     </section>
     <!-- SIDEBAR -->
@@ -62,7 +62,7 @@
 
         <!-- MAIN -->
         <main>
-            <h1 class="title">Academic Area</h1>
+            <h1 class="title">Dashboard</h1>
             <ul class="breadcrumbs">
                 <li><a href="#">Home</a></li>
                 <li class="divider">/</li>
@@ -122,16 +122,17 @@
                     <!-- conteido -->
                     <table class="table table-striped">
                         <thead>
-                          <tr>
-                            <th scope="col">ID</th>
-                            <th scope="col">id_area</th>
-                            <th scope="col">id_staff</th>
-                            <th scope="col">id_position</th>
-                            <th scope="col">id_journey</th>
-                          </tr>
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">id_staff</th>
+                                <th scope="col">cel_number</th>
+                                <th scope="col">relationship</th>
+                                <th scope="col">full_name</th>
+                                <th scope="col">email</th>
+                            </tr>
                         </thead>
                         <tbody>
-                          <!-- <tr>
+                            <!-- <tr>
                             <th scope="row">1</th>
                             <td>Mark</td>
                           </tr>
@@ -140,7 +141,7 @@
                             <td>Jacob</td>
                           </tr> -->
                         </tbody>
-                      </table>
+                    </table>
                 </div>
 
             </div>
